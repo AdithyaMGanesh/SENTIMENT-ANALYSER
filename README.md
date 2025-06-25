@@ -27,14 +27,14 @@
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/sentiment-analysis-app.git
+
 cd sentiment-analysis-app
   
-  Install dependencies:
+### 2. Install dependencies:
   
   pip install flask pandas textblob nltk
   
-  Run the app:
+### 3. Run the app:
   
   python app.py
