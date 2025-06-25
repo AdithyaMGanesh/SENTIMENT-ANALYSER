@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tweet Sentiment Analyzer</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; text-align: center; background-image: url("{{ url_for('static', filename='bg.webp') }}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white; }
+        textarea { width: 300px; height: 100px; font-size: 14px; }
+        button { padding: 10px 20px; font-size: 16px; margin-top: 10px; }
+        h1 { color: #333; }
+        .result { margin-top: 20px; font-size: 20px; font-weight: bold; }
+        .form-box {
+    background-color: rgba(255, 255, 255, 0.2); /* translucent white */
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+    </style>
+</head>
+<body>
+    <h1>Tweet Sentiment Analyzer</h1>
+
+    <div class="form-box">
+        <form method="POST">
+            <textarea name="tweet" placeholder="Enter tweet text here..."></textarea><br>
+            <button type="submit">Analyze Sentiment</button>
+        </form>
+
+        {% if sentiment %}
+        <div class="result">
+            Sentiment: {{ sentiment | capitalize }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
