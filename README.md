@@ -1,32 +1,35 @@
-💬 Sentiment Analysis Web App
-A Flask-based web application to detect sentiment from tweets using TextBlob
+# 💬 Sentiment Analysis Web App
+*A Flask-based web application to detect sentiment from tweets using TextBlob*
 
-🧰 Tools & Technologies Used
-Python – Core programming language
+---
 
-Flask – Web framework for the backend
+## 🧰 Tools & Technologies Used
 
-TextBlob – For sentiment analysis
+- **Python** – Core programming language  
+- **Flask** – Web framework  
+- **TextBlob** – Sentiment analysis  
+- **NLTK** – Text preprocessing (optional)  
+- **Pandas** – Data manipulation  
+- **HTML/CSS** – Basic frontend design  
 
-NLTK – Natural Language Toolkit (optional preprocessing)
+---
 
-Pandas – Data handling and manipulation
+## 📋 Project Features
 
-HTML/CSS – Basic frontend interface
+- Read tweets from a CSV file  
+- Analyze tweet sentiments using TextBlob  
+- Classify as **Positive**, **Negative**, or **Neutral**  
+- Display results in a web interface  
 
-📋 Project Features
-✅ Read tweets from a .csv file
-✅ Analyze sentiment using TextBlob
-✅ Classify tweets as Positive, Negative, or Neutral
-✅ Display results on a simple web interface
+---
 
-🚀 How to Run
+## 🚀 How to Run the Project
 
-  Clone the project:
-  
-  git clone https://github.com/your-username/sentiment-analysis-app.git
-  
-  cd sentiment-analysis-app
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/sentiment-analysis-app.git
+cd sentiment-analysis-app
   
   Install dependencies:
   
