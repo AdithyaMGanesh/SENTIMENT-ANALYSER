@@ -1,4 +1,4 @@
-****🧠 Sentiment Analysis App****
+#🧠 Sentiment Analysis App
 
 A simple Flask web app that analyzes the sentiment of tweets using TextBlob.
 
