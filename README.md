@@ -8,7 +8,7 @@
 - **Python** – Core programming language  
 - **Flask** – Web framework  
 - **TextBlob** – Sentiment analysis  
-- **NLTK** – Text preprocessing (optional)  
+- **NLTK** – Text preprocessing   
 - **Pandas** – Data manipulation  
 - **HTML/CSS** – Basic frontend design  
 
